@@ -15,7 +15,6 @@ in {
         type = types.int;
         default = 0;
         example = 12345678;
-        description = "";
       };
 
       api-hash = mkOption {
