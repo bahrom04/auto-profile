@@ -28,6 +28,9 @@ API_ID = _safe_int("API_ID")
 API_HASH = os.getenv("API_HASH", "")
 PHONE_NUMBER = _safe_int("PHONE_NUMBER")
 
+# User credentials
+FIRST_NAME = os.getenv("FIRST_NAME", "")
+
 # Weather API key
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "")
 if not WEATHER_API_KEY:

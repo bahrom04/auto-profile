@@ -132,3 +132,13 @@ Make sure `.env` file is placed and readable from the working directory inside t
 
 We welcome contributions!
 Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting a pull request or issue.
+
+
+## Notes
+```
+python setup.py install
+pip install -e . 
+
+You can see if your package file compiles with nix-instantiate --eval default.nix
+nix-build default.nix
+```
